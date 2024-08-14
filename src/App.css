@@ -1,0 +1,104 @@
+.top-section {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  align-items: center;
+}
+.about {
+  width: 100px;
+  text-align: center;
+}
+.about:hover,
+.store:hover,
+.gmail:hover,
+.images:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.store {
+  width: 100px;
+  text-align: center;
+}
+.others {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.right-icons {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.google-section {
+  display: flex;
+  height: 300px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.google-word {
+  width: 310px;
+  height: 125px;
+}
+.search-section {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  padding-top: 10px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  height: 45px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(181, 181, 181);
+}
+.search-container:hover {
+  box-shadow: -1px 1px 6px rgb(200, 200, 200);
+}
+.search-bar {
+  width: 400px;
+  border: 1px solid rgb(208, 207, 207);
+}
+.search-bar:focus {
+  border-style: none;
+}
+.left-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}
+.right-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-search-icons {
+}
+.search-image {
+  width: 20px;
+  height: 20px;
+}
+
+.microphone-image {
+  width: 30px;
+  height: 30px;
+}
+.search-by-image {
+  width: 25px;
+  height: 25px;
+}
+
+.bottom-section {
+  height: 300px;
+}

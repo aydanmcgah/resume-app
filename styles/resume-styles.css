@@ -1,0 +1,170 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Libre Franklin", sans-serif; */
+  height: 100vh;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.general {
+  margin-left: 275px;
+ 
+}
+.left {
+
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 200;
+  min-height: 100%;
+  display: flex;
+  background-color: white;
+  width: 275px;
+  float: left;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-color: rgb(197, 197, 197);
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+}
+
+.contact-word {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.contact-link {
+    color: black;
+    text-decoration: none;
+
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.contact-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 60px;
+  width: 200px;
+  background-color: rgb(220, 220, 220);
+  margin-bottom: 50px;
+  border-radius: 20px;
+
+  font-size: 15px;
+}
+.contact-image {
+  width: 30px;
+  height: 30px;
+}
+
+.right {
+  flex: 1;
+  height: 100vh;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+}
+.profile-container {
+  display: flex;
+
+  align-items: center;
+  width: 700px;
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.profile-info {
+  padding-left: 75px;
+}
+.profile-name {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.profile-location {
+  margin-bottom: 40px;
+  font-style: italic;
+  font-weight: 300;
+}
+.profile-bio {
+
+}
+
+.pages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 20px;
+ 
+}
+
+/* .pages {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
+
+  height: 150px;
+} */
+
+.pages-circle {
+  background-color: rgb(220, 220, 220);
+  align-content: center;
+  height: 120px;
+  width: 120px;
+  border-radius: 75px;
+  text-align: center;
+  margin: auto;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 1000px;
+  margin-top: 80px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+@media (max-width: 1300px) {
+    .projects-grid{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 35px;
+        padding-left: 120px;
+        padding-right: 120px;
+        
+    }
+}
+
+.project-square {
+  background-color: rgb(220, 220, 220);
+  align-content: center;
+  height: 260px;
+  width: 260px;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+}

@@ -1,0 +1,13 @@
+.content-header {
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  .content-sub-header {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .content-list {
+    font-size: 12px;
+  }
+  

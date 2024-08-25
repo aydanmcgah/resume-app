@@ -29,8 +29,7 @@ body {
   border-color: rgb(167, 167, 167);
   justify-content: center;
   align-items: center;
-  /* background-color: rgb(142, 166, 155); */
-  background-color: rgb(8, 0, 255);
+  background-color: rgb(142, 166, 155);
   font-family: "Montserrat", sans-serif;
 }
 

@@ -14,6 +14,8 @@ export function SkillsContent() {
           <li> OOP </li>
           <li> React </li>
           <li> HTML/CSS </li>
+          <li>JavaScript</li>
+          <li>Git</li>
           <li> Figma </li>
         </ul>
       </div>

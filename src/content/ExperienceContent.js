@@ -2,6 +2,21 @@
 export function ExperienceContent() {
     return (
       <div>
+        <h6 class="content-header"> Curriculum Associates </h6>
+        <h6 class="content-sub-header"> Software Engineering Co-Op</h6>
+        <ul class="content-list">
+          <li>
+            {" "}
+            Fixed visual defects in React and JavaScript to ensure i-Ready, 
+            an educational software, was compliant with accessibility standards 
+            for the release of the updated program
+          </li>
+          <li>
+            {" "}
+            Assisted in tech debt to internally optimize code to ensure 
+            clarity and improve speed of the app for student users
+          </li>
+        </ul>
         <h6 class="content-header"> Riveting Results </h6>
         <h6 class="content-sub-header"> QA and Digital Producer</h6>
         <ul class="content-list">
@@ -39,21 +54,7 @@ export function ExperienceContent() {
             to collaborate ideas for further implementation{" "}
           </li>
         </ul>
-        <h6 class="content-header"> Resilience Consultants </h6>
-        <h6 class="content-sub-header"> Product Manager</h6>
-        <ul class="content-list">
-          <li>
-            {" "}
-            Directed the design and content development for a consulting firms
-            website by recruiting and hiring a web designer and met weekly to
-            track progress and provide feedback until launch
-          </li>
-          <li>
-            {" "}
-            Researched and consolidated data and literature resources on homeless
-            youth for service providers nationally
-          </li>
-        </ul>
+        
       </div>
     );
   }
